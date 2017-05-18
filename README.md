@@ -1,2 +1,5 @@
-# practicas2017I
-Prácticas de Desarrollo de Aplicaciones Web para el Término I del año 2017
+# Desarrollo de Aplicaciones Web
+## Prácticas en Clase
+### Término I - 2017
+
+En este sitio encontrarás las prácticas de Desarrollo de Aplicaciones Web realizadas durante el Término I - 2017
