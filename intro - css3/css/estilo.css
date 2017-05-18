@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+/*Selectores Básicos*/
+* {
+	font-family: "Verdana";
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+header#cabecera img {
+	width: 10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+	text-align: center;
+}
+
+.elemento-menu {
+	list-style-type: none;
+	display: inline;
+}
+
+/*Selectores Avanzados*/
+footer > p {
+	font-style: italic;
+	display: inline;
+}
+
+footer {
+	text-align: center;
+}
+
+aside h3 + h4 {
+	font-style: italic;
+	color: green;
+}
+
+aside ul li h5 ~ p {
+	font-size: 8pt;
+}
+
+h5[title$="small"] {
+	text-decoration: underline;
+}
+
+li[name="fork"]{
+	list-style-image: url("https://images-eu.ssl-images-amazon.com/images/I/414j3RoOwkL._SS40_.jpg")
+}
+
+/*Pseudo-clases y Pseudo-elementos*/
+nav > ul > li > a:hover {
+	color:green;
+}
+
+p.descripcion::first-letter {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+section article header section img {
+	width: 15%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*MANTENGASE COMENTADO HASTA EL FINAL*/
+section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+}
+
