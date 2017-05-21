@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*Creación del Font - Family */
+@font-face {
+    font-family: IndieFont;
+    src: url(IndieFlower.ttf);
+}
+
+body {
+	background-image: url('background3.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Princess Sofia', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+
+p.frase{
+
+	text-align: center;
+	font-family: IndieFont;
+	font-size: 1.2em;
+    
+    /*Box Model*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+	padding: 15px;
+    
+    
+    border-style: outset;
+    border-width: 1.2pt;
+
+    background-color: #f4d2d3;
+	background-clip: border-box;
+
+	/*CSS3*/
+    box-shadow: 10px 10px 5px #f4eded;
+}
+
+h1 ~ div {
+	padding-bottom: 10px;
+}
