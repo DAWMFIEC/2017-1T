@@ -9,6 +9,7 @@ body {
 	background-image: url('background.png');
 	background-color: #f4f7d9;
 	background-repeat: no-repeat;
+	background-size: 21%;
 	background-position: bottom right;
 	background-attachment: fixed;
 }
