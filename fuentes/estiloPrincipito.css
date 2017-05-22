@@ -41,6 +41,7 @@ p.frase{
 
 	/*CSS3*/
     box-shadow: 10px 10px 5px #f4eded;
+    border-radius: 15px;
 }
 
 h1 ~ div {
