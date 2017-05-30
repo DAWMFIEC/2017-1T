@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Metal;
+    src: url("../font/CloisterBlack.ttf");
+}
+
+header {
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 450%;
+    font-family: Metal;
+    font-weight: normal
+}
+
+header > h1 > img#logo {
+    width: 7%;
+}
+
+header > h2 {
+    font-size: 200%;
+}
+
+header > nav {
+    padding: 0 10px;
+    background-color: #959597;
+}
+
+header > nav > p {
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section article:first-child {
+    margin-left: 10%;
+}
+
+article {
+    width: 18%;
+    height: 270px;
+    float: left;
+    margin-top: 0.9%;
+    margin-right: 1%;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #b7b7b7;
+}
+
+article > div.cabecera-articulo {
+    height: 50%;
+    padding-top: 7%;
+}
+
+article > div.contenido-articulo {
+    height: 50%;
+}
+
+article > div > h1 {
+    font-size: 115%;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+article > div > h2 {
+    width: 80%;
+    font-size: 140%;
+    margin: 0% auto;
+    color: #005999;
+    padding-left: 3%;
+    padding-right: 1%;
+    text-transform: uppercase;
+    border-bottom: dotted 1px #E5E5E5;
+}
+
+article > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 3px 3px;
+}
+
+aside {
+    width: 22%;
+    height: 280px;
+    float: left;
+    margin-top: 0.9%;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #b7b7b7;
+}
+
+aside h1 {
+    width: 90%;
+    font-size: 140%;
+    color: #005999;
+    padding-left: 5%;
+    padding-right: 2%;
+    text-transform: uppercase;
+    border-bottom: dotted 1px #E5E5E5;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+aside li {
+    counter-increment: count-me;
+}
+
+aside li::before {
+    content: counter(count-me);
+    display: block;
+    position: relative;
+    left: -0.6em;
+    top: 1em;
+    color: #E5E8EB;
+    font-weight: bold;
+    font-size: 3.5em;
+    font-style: italic;
+}
+
+aside li {
+    width: 80%;
+    height: 78px;
+    position: relative;
+    top: -4em;
+    text-align: left;
+}
+
+footer {
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+

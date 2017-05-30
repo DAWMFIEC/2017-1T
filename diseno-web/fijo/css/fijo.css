@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Metal;
+    src: url("../font/CloisterBlack.ttf");
+}
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header > h1 {
+	font-size: 80px;
+	font-family: Metal;
+	font-weight: normal
+}
+
+header > h1 > img#logo {
+	width: 74px;
+}
+
+header >  h2 {
+	font-size: 100px;
+	
+}
+
+header > nav {
+	padding: 0 10px;
+	background-color: #959597;
+
+}
+
+header > nav >  p {
+	font-family: Verdana, sans-serif;
+	background-color: white;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section article:first-child {
+	margin-left: 158px;
+}
+
+article {
+	width: 220px;
+	height: 321px;
+	float: left;
+
+	margin-top: 10px;
+	margin-right: 10px;
+
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #b7b7b7;
+}
+
+article > div.cabecera-articulo {
+	height: 135px;
+	padding-top: 20px;
+}
+
+article > div.contenido-articulo {
+	height: 186px;
+}
+
+article > div > h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+article > div > h2 {
+    width: 200px;
+
+    margin: 0px auto;
+
+	color: #005999;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+	border-bottom: dotted 1px #E5E5E5;
+}
+
+article > div > img {
+	width: 220px;
+	height: 167px;
+	border-radius: 0 0 3px 3px;
+}
+
+
+
+aside {
+	width: 250px;
+
+	float: left;
+	margin-top: 10px;
+
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #b7b7b7;
+	
+}
+
+aside h1 {
+	width: 250px;
+	
+	color: #005999;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+	border-bottom: dotted 1px #E5E5E5;
+}
+
+aside li {
+	list-style-type: none;
+}
+
+aside li {
+	counter-increment: count-me;
+}
+
+aside li::before {
+	content: counter(count-me);
+    display: block;
+    
+    position: relative;
+    left: -32px;
+    top: 56px;
+    color: #E5E8EB;
+
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+aside li {
+	width: 200px;
+	height: 78px;
+
+	position: relative;
+	top: -60px;
+	text-align: left;
+
+}
+
+footer {
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+	font-style: italic;
+}
