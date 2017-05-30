@@ -7,5 +7,6 @@ En este sitio encontrarás las prácticas de Desarrollo de Aplicaciones Web real
 * [Intro - CSS3](https://dawfiec.github.io/practicas2017I/intro-css3)
 * [Fuentes y Box Model](https://dawfiec.github.io/practicas2017I/fuentes)
 * Diseño Web
-	* [Diseño Fijo](https://dawfiec.github.io/practicas2017I/diseno-web/fijo/fijo.html)
-	* [Dieño Fluido](https://dawfiec.github.io/practicas2017I/diseno-web/fluido/fluido.html)
+	* [Diseño Fijo (Fixed design)](https://dawfiec.github.io/practicas2017I/diseno-web/fijo/fijo.html)
+	* [Diseño Fluido (Fluid design)](https://dawfiec.github.io/practicas2017I/diseno-web/fluido/fluido.html)
+	* [Diseño Responsivo (AWD + RWD + Fluid)](https://dawfiec.github.io/practicas2017I/diseno-web/responsivo/responsivo.html)
