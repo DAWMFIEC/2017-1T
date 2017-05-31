@@ -1,5 +1,5 @@
 header {
-     margin-left: 15%;
+     margin-left: 12.5%;
 }
 
 header > nav {
@@ -14,25 +14,32 @@ header > nav > p {
     text-align: center;
 }
 
+footer {
+    padding-top: 1%;
+    font-style: italic;
+}
+
 section {
-    margin-left: 15%;
+    margin-left: 12.5%;
 }
 
 article {
-    margin-top: 0.9%;
+    width: 32% !important;
+    margin-top: 1%;
+    margin-right: 1%;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
     box-shadow: 0 0 5px #b7b7b7;
 }
 article > div > h1 {
-    font-size: 115%;
+    font-size: 1em;
     padding-left: 3%;
-    padding-right: 1%;
+    padding-right: 3%;
 }
 
 article > div > h2 {
 	padding-left: 3%;
-    padding-right: 1%;
+    padding-right: 3%;
 	color: #005999;
 	text-transform: uppercase;
     border-bottom: dotted 1px #E5E5E5;
@@ -45,7 +52,7 @@ article > div > img {
 }
 
 article div.cabecera-articulo {
-    height: 130px;
+    height: 120px;
 }
 
 article div.contenido-articulo {
@@ -53,8 +60,9 @@ article div.contenido-articulo {
 }
 
 aside {
-	margin-left: 10px;
-    margin-top: 5px;
+	margin-top: .5%;
+    margin-left: 1%;
+    width: 24% !important;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
     box-shadow: 0 0 5px #b7b7b7;
