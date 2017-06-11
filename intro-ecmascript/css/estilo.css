@@ -1,0 +1,20 @@
+.jumbotron {
+	background-image: url('../img/fondo2.jpg');
+	background-position: top right;
+	background-size: cover;
+	height: 50vh;
+}
+
+.jumbotron h1 {
+	color: #1b5a2f;
+	text-shadow: 1px 1px #8c8a8a;
+}
+
+
+.comments p:nth-child(even) { background: #EDC890;}
+.comments p:nth-child(odd) { background: #DFC19C;}
+
+.comments p {
+	padding: 10px 10px;
+	 border-radius: 5px 10px 10px 10px;
+}
