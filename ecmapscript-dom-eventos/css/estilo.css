@@ -1,0 +1,58 @@
+@media screen and (min-width: 970px) {
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #efe8e8;
+    }
+    #contenedor-principal {
+        background-color: white;
+        height: auto;
+        /*border-left: 1px solid black;
+border-right: 1px solid black;*/
+        -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+    }
+    .jumbotron {
+        background-image: url('../img/sala.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 30vh;
+    }
+    .jumbotron > h1,
+    .jumbotron > p {
+        color: white;
+    }
+    /*overwrite*/
+    .nav-pills>li.active>a,
+    .nav-pills>li.active>a:focus,
+    .nav-pills>li.active>a:hover {
+        background-color: #4c4444;
+    }
+    .header {
+        margin-top: 2%;
+    }
+    h3.text-muted {
+        font-family: 'Romanesco', cursive;
+        font-size: 5em;
+        color: #46100E;
+    }
+
+    h3.pelicula {
+		color: #732623;
+    }
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row > [class*='col-'] {
+        display: flex;
+    }
+
+    img[id*="thumb"] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CinemaTu</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Romanesco" rel="stylesheet">
+    <script src="js/funcionalidad.js"></script>
+</head>
+
+<body>
+    <div id="contenedor-principal" class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Películas</a></li>
+                    <li role="presentation"><a href="#">Reparto</a></li>
+                    <li role="presentation"><a href="#">Cr&eacute;ditos</a></li>
+                </ul>
+            </nav>
+            <h3 id="titulo" class="text-muted">CinemaT&uacute;</h3>
+        </div>
+        <div class="jumbotron">
+            <h1>¡Cerca de ti!</h1>
+            <p class="lead"></p>
+        </div>
+        <div class="row row-eq-height">
+            <div class="col-sm-6 col-md-4 equal">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <img id="thumb1" src="img/momia.jpg" alt="la momia">
+                        <h3 class="text-center pelicula">LA MOMIA</h3>
+                        <p class="text-justify">Sinopsis: Una reina de la antigüedad despierta de su tumba, trayendo consigo su milenaria maldición y terrores que desafían la comprensión humana.</p>
+                        <p class="text-center">
+                            <a href="#" class="btn btn-primary" role="button" data-toggle="collapse" data-target="#video">Ver Avances</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 equal">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <img id="thumb2" src="img/magooz.jpg" alt="el mago de oz">
+                        <h3 class="text-center pelicula">EL MAGO DE OZ (CLASICO)</h3>
+                        <p class="text-justify">Sinopsis: Dorothy, que sueña con viajar "más allá del arco iris", ve su deseo hecho realidad cuando un tornado se la lleva con su perrito al mundo de Oz. </p>
+                        <p class="text-center">
+                            <a href="#" class="btn btn-primary" role="button">Ver Avances</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 equal">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <img id="thumb3" src="img/zciudadperdida.jpg" alt="z la ciudad perdida">
+                        <h3 class="text-center pelicula">Z LA CIUDAD PERDIDA</h3>
+                        <p class="text-justify">Durante siglos los europeos discutieron sobre la existencia de una antigua civilización en la selva del Amazonas. </p>
+                        <p class="text-center">
+                            <a href="#" class="btn btn-primary" role="button">Ver Avances</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-eq-height">
+            <div id="video" class="col-lg-12">
+            
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
