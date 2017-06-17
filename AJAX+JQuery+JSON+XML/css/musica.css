@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Lobster;
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+
+h3.text-muted {
+	font-family: Lobster;
+	font-size: 6em;
+	color:#FF0179;
+}
+
+#imagen {
+	min-height: 200px;
+	background-image: url('../img/music.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	border: .8px solid black;
+	border-radius: 10px;
+	box-shadow: 8px 8px 2px #888888;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color:#00d2ff;
+}
+
+.lista-generos {
+	list-style: none;
+}
+
+.lista-generos li {
+	display: inline;
+}
+
+.lista-generos li:after {
+	content: ", ";
+}
+
+.lista-generos li:last-child:before { content: "y "; }
+.lista-generos li:last-child:after { content: "."; }
+
+#generos{
+	font-family: Lobster;
+	font-size: 2.1em;
+	text-transform: capitalize;
+}
+
+a.ritmos-latinos {
+	cursor: pointer;
+}
+
+div.cantantes {
+	min-height: 100px;
+	width: 100%;
+	background-color: #00d2ff;
+	margin-bottom: 10px;
+	border: .8px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 1px #747777;
+	cursor: pointer;
+}
+
+
+div#promos {
+	padding-top: 10px;
+}
+
+div#promos > div {
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #747777;
+	font-size: 0.8em;
+}
+
+div#promos > div > h3 {
+	color: white;
+}
+
+div#promos > div > p {
+	color: #F8FAEF;
+}
+
+div#promociones {
+	background-color: #FDE101;
+}
+
+div#productos {
+	background-color: #9EE700;
+}
+
+div#locales {
+	background-color: #FC0144;
+}
+
+div.foto-artista {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200%;
+	/*background-color: lightblue;*/
+	min-height: 150px;
+	/*border: solid 1px black;*/
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.foto-artista:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  cursor:pointer;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

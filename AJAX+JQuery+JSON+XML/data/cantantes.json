@@ -1,0 +1,62 @@
+[ 
+	{
+		"nombre":"Shakira",
+		"archivo":"shakira.jpg",
+		"generos":["reggaeton","bachata"]
+	},
+	{
+		"nombre":"Daddy Yankee",
+		"archivo":"yankee.jpg",
+		"generos":["reggaeton","bachata"]
+	},
+	{
+		"nombre":"Silvestre Dangond",
+		"archivo":"silvestre.jpg",
+		"generos":["vallenato"]
+	},
+	{
+		"nombre":"Carlos Vives",
+		"archivo":"vives.jpg",
+		"generos":["vallenato"]
+	},
+	{
+		"nombre":"Romeo Santos",
+		"archivo":"santos.jpg",
+		"generos":["bachata"]
+	},
+	{
+		"nombre":"Prince Royce",
+		"archivo":"royce.jpg",
+		"generos":["bachata"]
+	},
+	{
+		"nombre":"Vickiana",
+		"archivo":"vickiana.jpg",
+		"generos":["merengue"]
+	},
+	{
+		"nombre":"Wilfrido Vargas",
+		"archivo":"vargas.jpg",
+		"generos":["merengue"]
+	},
+	{
+		"nombre":"Celia Cruz",
+		"archivo":"cruz.jpg",
+		"generos":["salsa"]
+	},
+	{
+		"nombre":"Willie Colón",
+		"archivo":"colon.jpg",
+		"generos":["salsa"]
+	},
+	{
+		"nombre":"Juan Luis Guerra",
+		"archivo":"guerra.jpg",
+		"generos":["salsa","merengue"]
+	},
+	{
+		"nombre":"Olga Tañón",
+		"archivo":"olga.jpg",
+		"generos":["salsa","merengue"]
+	}
+]
