@@ -4,8 +4,8 @@
 
 En este sitio encontrarás las prácticas de Desarrollo de Aplicaciones Web realizadas durante el Término I - 2017
 
-* [Intro - CSS3](https://dawfiec.github.io/practicas2017I/intro-css3)
-* [Fuentes y Box Model](https://dawfiec.github.io/practicas2017I/fuentes)
+* [Intro - CSS3](https://dawfiec.github.io/2017-1T/intro-css3)
+* [Fuentes y Box Model](https://dawfiec.github.io/2017-1T/fuentes)
 * Diseño Web
 	* [Diseño Fijo (Fixed design)](https://dawfiec.github.io/practicas2017I/diseno-web/fijo/fijo.html)
 	* [Diseño Fluido (Fluid design)](https://dawfiec.github.io/practicas2017I/diseno-web/fluido/fluido.html)
